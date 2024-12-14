@@ -25,7 +25,7 @@ const YearsDropdown: FC<YearsDropdownProps> = ({ year, setYear, fromYear }) => {
             <DropdownMenuTrigger>
                 <Badge
                     variant='outline'
-                    className='w-40 flex justify-between font-normal text-base py-2'
+                    className='w-40 flex justify-between font-normal text-base py-1'
                 >
                     <span className='truncate max-w-[120px]'>
                         {year ?? 'Choose year'}
