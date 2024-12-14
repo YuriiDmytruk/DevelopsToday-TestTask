@@ -1,7 +1,7 @@
 export const generateStaticParams = ({
     year,
-    makeId
+    makeId,
 }: {
-    year: string
-    makeId: string
-}) => `/result/${makeId}/${year}`
+    year: string;
+    makeId: string;
+}) => `/result/${makeId}/${year}`;
